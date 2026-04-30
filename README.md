@@ -76,10 +76,6 @@ lib/
 
 ---
 
-## 🔒 Security Note
-> [!WARNING]
-> Please ensure you do not commit your production API keys to public repositories. Use `.env` files or secure secret management for production builds.
-
 ---
 
 *Built with ❤️ for the health of our community.*
