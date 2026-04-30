@@ -1,0 +1,76 @@
+name: rafiik
+description: "Rafiq AI - Intelligent Diabetes Health Assistant"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_localizations:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # Navigation
+  go_router: ^14.0.0
+
+  # Local Storage & Database
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.2
+
+  # AI & Network
+  google_generative_ai: ^0.4.0
+  http: ^1.2.1
+  dio: ^5.4.3
+
+  # UI & UX
+  fl_chart: ^0.66.0
+  font_awesome_flutter: ^10.7.0
+  google_fonts: ^6.2.1
+  flutter_spinkit: ^5.2.1
+  shimmer: ^3.0.0
+
+  # PDF & Reporting
+  pdf: ^3.10.8
+  printing: ^5.11.1
+
+  # Utils
+  intl: ^0.19.0
+  image_picker: ^1.0.7
+  flutter_local_notifications: ^17.0.0
+  timezone: ^0.9.2
+  shake: ^3.0.0
+  geolocator: ^14.0.2
+  audioplayers: ^6.6.0
+  url_launcher: ^6.3.0
+  supabase_flutter: ^2.12.4
+  mobile_scanner: ^6.0.11
+  permission_handler: ^12.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  
+  # Generation
+  build_runner: ^2.4.8
+  riverpod_generator: ^2.3.9
+  freezed: ^2.4.7
+  freezed_annotation: ^2.4.4
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+
+dependency_overrides:
+  geolocator_android: 4.1.9
